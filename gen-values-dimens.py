@@ -45,7 +45,7 @@ if __name__ == "__main__":
             usage()
             sys.exit()
 
-        print 'gen values.xml:out_file=%s,max_px=%d,scale=%f' % (out_xml_file, px_max, scale)
+        print 'gen dimens.xml:out_file=%s,max_px=%d,scale=%f' % (out_xml_file, px_max, scale)
         genvalues_xml(out_xml_file, px_max, scale)
         print 'gen xml success!'
 
